@@ -1,6 +1,7 @@
 {
   "name": "cc",
   "private": true,
+  "homepage": "https://lisichkinov.github.io/cc",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
