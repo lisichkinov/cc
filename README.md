@@ -1,4 +1,4 @@
 # cc
 Currency converter
 
-Demo[https://lisichkinov.github.io/cc/]
+Demo(https://lisichkinov.github.io/cc/)
