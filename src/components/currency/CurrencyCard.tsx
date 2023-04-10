@@ -28,7 +28,7 @@ export function CurrencyCard() {
     return (
         <Card shadow="md" radius="md" padding="xl" mt="lg">
             <Select
-                icon={<Avatar size="md" src={`./images/flags/${base?.country}.svg`} alt={base?.name} mr="sm" />}
+                icon={<Avatar size="md" src={`images/flags/${base?.country}.svg`} alt={base?.name} mr="sm" />}
                 searchable
                 placeholder="Основная валюта"
                 data={all.map(c => ({ value: c.code, label: c.name }))}

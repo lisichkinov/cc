@@ -10,7 +10,7 @@ type Props = {
 export function CurrencyField({ currency, onChange, value }: Props) {
     return (
         <NumberInput 
-            rightSection={<Avatar size="xs" src={`./images/flags/${currency.country}.svg`} alt={currency.name} mr="sm" />}
+            rightSection={<Avatar size="xs" src={`images/flags/${currency.country}.svg`} alt={currency.name} mr="sm" />}
             label={currency.name} 
             placeholder={currency.name} 
             icon={currency.symbol} 
