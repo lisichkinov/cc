@@ -10,7 +10,7 @@ export const useCurrency = () => {
     const base = currencies.find(c => c.code === baseCurrency)
 
     const all: CurrencyType[] = currencies
-    const selected: CurrencyType[] = all.filter(c => targetCurrencies.includes(c.code ?? ''))
+    const selected: CurrencyType[] = all.filter(c => targetCurrencies.includes(c.code))
     const available: CurrencyType[] = all.filter(c => !selected.includes(c) && c.code !== baseCurrency)
 
     return {
