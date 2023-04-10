@@ -6,7 +6,7 @@ import { Footer } from './Footer'
 
 export function Layout( { children }: PropsWithChildren<any> ) {
     return (
-        <AppShell footer={<Footer />} header={<Header />}>
+        <AppShell header={<Header />}>
             <Main>
                 { children }
             </Main>
