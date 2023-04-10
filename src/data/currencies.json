@@ -1,0 +1,26 @@
+[
+    {
+        "code": "RUB",
+        "name": "Российский рубль",
+        "symbol": "₽",
+        "country": "ru"
+    },
+    {
+        "code": "EUR",
+        "name": "Евро",
+        "symbol": "€",
+        "country": "eu"
+    },
+    {
+        "code": "USD",
+        "name": "Доллар США",
+        "symbol": "$",
+        "country": "us"
+    },
+    {
+        "code": "GBP",
+        "name": "Фунт стерлингов",
+        "symbol": "£",
+        "country": "gb"
+    }
+]
